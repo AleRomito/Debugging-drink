@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-
+    
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="./styles.css">
@@ -28,16 +29,57 @@
         </div>
 
         <div data-aos="zoom-in-up" data-aos-duration="1000" id="ISN">
-            Izuz's Special<br>Night.
+            Izuz's Special Night.
         </div>
     
-        <div style="height: 500px; width: 100%; background-color: red;"></div>
+        <div id="Participan">
+            <p>Participan de este evento</p>
+        </div>
+
+
+        <div class="swiffy-slider slider-item-show2 slider-nav-visible slider-nav-autoplay slider-indicators-round">
+            <ul class="slider-container">
+                <li>
+                    <div id="slide1"><img src="./Guests/Host-Augusto-Izuz.webp" alt=""></div>
+                </li>
+                <li>
+                    <div id="slide2"><img src="./Guests/Guest-Marco-Miranda.webp" alt=""></div>
+                </li>
+                <li>
+                    <div id="slide3"><img src="./Guests/Guest-Martin-Dulbecco.webp" alt=""></div>
+                </li>
+                <li>
+                    <div id="slide4"><img src="./Guests/Guest-Augusto-Falino.webp" alt=""></div>
+                </li>
+                <li>
+                    <div id="slide5"><img src="./Guests/Guest-Alejandro-Romito.webp" alt=""></div>
+                </li>
+            </ul>
+        
+            <button type="button" class="slider-nav"></button>
+            <button type="button" class="slider-nav slider-nav-next"></button>
+        
+            <ul class="slider-indicators">
+                <li class=""></li>
+                <li class="active"></li>
+                <li class=""></li>
+                <li class=""></li>
+                <li></li>
+                <li class=""></li>
+                <li class=""></li>
+                <li class=""></li>
+                <li class=""></li>
+            </ul>
+        </div>
+
+
     
     </main>
 
 </body>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
 <script>
     AOS.init();
   </script>
