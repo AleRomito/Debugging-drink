@@ -32,6 +32,11 @@ footer{
 
 /* CLASS */
 
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .swiffy-slider{
     width: 100%;
     align-items: center;
@@ -352,5 +357,65 @@ footer{
 /* PANTALLAS GRANDES */
 
 @media (min-width: 992px){
+
+    .container{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    #Logo-Evil img{
+        width: 50%;
+    }
+    #presentacion{
+        font-family: "Londrina Solid", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+        margin-bottom: 250px;
+    }
+    #ISN{
+        font-family: "Russo One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 4rem;
+        margin-bottom: 200px;
+    }
+    #Participan{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        height: 80px;
+        width: 100%;
+        color: var(--color-1);
+        background-color: rgb(46, 46, 46);
+        font-family: "Londrina Solid", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 2rem;
+        margin-bottom: 100px;
+    }
+    #mi-slider img{
+        border-radius: 50px;
+    }
+    #texto-descriptivo{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    #debugging-drink{
+        width: 50%;
+    }
+    #debugging-drink img{
+        border-radius: 50px;
+    }
+    #ingredientes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+    
+        
+    
 
 }
