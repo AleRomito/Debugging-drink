@@ -106,7 +106,6 @@ main{
     font-weight: 300;
     font-style: normal;
     font-size: 2rem;
-    /* margin-bottom: 50px; */
 
 }
 .que-coctel{
@@ -114,14 +113,8 @@ main{
     font-weight: 300;
     font-style: normal;
     font-size: 2rem;
-}
-#ingredientes{
-    /* background-color: #222; */
-    margin: 0;
-}
-#ingredientes img{
-    margin: 0;
-
+    margin-top: 200px;
+    margin-bottom:200px;
 }
 
 /* DIVS INGREDIENTES */
@@ -150,9 +143,6 @@ main{
     grid-column: 5 / 10;
     position: absolute;
     top: 10%;
-    /* top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
     text-align: center;
     z-index: 1;
 
@@ -288,6 +278,45 @@ main{
     z-index: 1;
     color: rgb(255, 255, 255);
 }
+
+#angostura{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    position: relative;
+}
+#angostura img{
+    grid-column: 1 / -1;
+    width: 100%;
+    height: auto;
+}
+#texto-botella-ango{
+    grid-column: 1 / 8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 3;
+    color: rgb(0, 0, 0);
+}
+#foto-botella-ango{
+    grid-column: 5 / 11;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+#debugging-drink{
+    width: 100%;
+}
+
+#debugging-drink img{
+    width: 100%;
+}
+
 
 
 
