@@ -30,20 +30,6 @@ footer{
     padding: 10px;
 }
 
-/* PARA CARGA DE SLIDER */
-
-.slider-container img {
-    width: 100%; /* Asegurar que las imágenes se ajusten al tamaño del slider */
-  }
-  /* Solo para simular que el slider no está visible al cargar la página */
-  body {
-    margin: 0;
-    padding: 0;
-  }
-  .spacer {
-    height: 100vh; /* Espacio antes del slider */
-  }
-
 /* CLASS */
 
 .swiffy-slider{
