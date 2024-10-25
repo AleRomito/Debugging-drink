@@ -410,4 +410,33 @@ footer{
         flex-wrap: wrap;
         width: 70%;
     }
+    #imagenes-evento{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #imagenes-evento img{    
+        width: 70%;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    #fotos-vertical{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        /* flex-wrap: wrap; */
+        padding-left: 3px;
+        padding-right: 3px;
+        padding-top: 0;
+        padding-bottom: 2px;
+    
+    }
+    #fotos-vertical img{
+        width: 50%;
+        padding: 3px;
+    }
+    
+    
 }
