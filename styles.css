@@ -330,6 +330,28 @@ footer{
     position: absolute;
     top: 25%;
 }
+#imagenes-evento img{    
+    width: 100%;
+    padding-left:  5px;
+    padding-right: 5px;
+    border-radius: 15px;
+}
+#fotos-vertical{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 0;
+    padding-bottom: 2px;
+
+}
+#fotos-vertical img{
+    width: 50%;
+    padding: 3px;
+}
+
 /* PANTALLAS GRANDES */
 @media (min-width: 992px){
     .container{
